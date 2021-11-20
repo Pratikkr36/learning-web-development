@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+    /* border: 4px solid red; */
+    /* background-color: rosybrown; */
+    background-image: url('wp2.jpg');
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 36px;
+}
+
+ul{
+    display:flex;
+    list-style-type: none;
+}
+
+.nav__link{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #142F43;
+    font-weight: 500;
+}
+.nav__link:hover{
+    color: #B91646;
+}
+
+.logo{
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #1f1b1b;
+    cursor: pointer;
+    transition: all 500ms ease-out;
+}
+.logo:hover{
+    color:#2F86A6 ;
+    transform: scale(1.1);
+}
+.navbar__right{
+    font-size: 24px;
+}
+
+ul li{
+    margin-left: 24px;
+}
+
